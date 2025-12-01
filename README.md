@@ -14,7 +14,7 @@ A Python SDK for connecting to ODIN Market Feed WebSocket API to receive real-ti
 
 ## Installation
 
-### From PyPI (once published)
+### From PyPI
 ```bash
 pip install odin-market-feed
 ```
@@ -24,12 +24,6 @@ pip install odin-market-feed
 pip install git+https://github.com/python-odinmarketfeedclient.git
 ```
 
-### From Source
-```bash
-git clone https://github.com/python-odinmarketfeedclient.git
-cd odin-market-feed
-pip install -e .
-```
 
 ## Quick Start
 
