@@ -75,7 +75,6 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-## API Reference
 
 ### ODINMarketFeedClient
 
@@ -161,19 +160,6 @@ Pause or resume market data subscription.
 
 - Python 3.7+
 - websockets >= 10.0
-
-## Development
-
-### Setting up development environment
-
-```bash
-# Clone the repository
-git clone https://github.com/python-odinmarketfeedclient.git
-cd odin-market-feed-sdk
-
-# Install in development mode
-pip install -e ".[dev]"
-```
 
 ## License
 
