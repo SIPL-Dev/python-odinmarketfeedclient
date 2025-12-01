@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odin-market-feed"
+version = "1.0.0"
+description = "Python Library for ODIN Market Feed WebSocket API"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "SIPL", email = "googledev@synapsewave.com"}
+]
+keywords = ["odin", "trading", "market-feed", "websocket", "stock-market", "real-time-data"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "websockets>=10.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/SIPL-Dev/python-odinmarketfeedclient"
+"Bug Reports" = "https://github.com/SIPL-Dev/python-odinmarketfeedclient/issues"
+"Source" = "https://github.com/SIPL-Dev/python-odinmarketfeedclient"
