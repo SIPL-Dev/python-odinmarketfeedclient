@@ -82,7 +82,7 @@ Main client class for connecting to ODIN Market Feed WebSocket API.
 
 #### Methods
 
-##### `connect(host, port, is_ssl, user_id, authentication_key)`
+##### `connect(host, port, use_ssl, user_id, api_key)`
 Connect to the WebSocket server.
 
 **Parameters:**
