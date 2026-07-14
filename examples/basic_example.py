@@ -44,9 +44,9 @@ async def main():
         await client.connect(
             host="your.server.com",  # Replace with actual host
             port=4509,               # Replace with actual port
-            is_ssl=False,            # Set to True if using SSL
+            use_ssl=False,            # Set to True if using SSL
             user_id="YOUR_USER_ID", # Replace with your user ID
-            authentication_key=""    # Add authentication key if required
+            api_key=""    # Add authentication key if required
         )
         
         # Keep the connection alive for 60 seconds

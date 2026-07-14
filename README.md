@@ -88,9 +88,9 @@ Connect to the WebSocket server.
 **Parameters:**
 - `host` (str): Server hostname or IP address
 - `port` (int): Server port number
-- `is_ssl` (bool): Whether to use SSL/TLS
+- `use_ssl` (bool): Whether to use SSL/TLS
 - `user_id` (str): Your user ID
-- `authentication_key` (str): Authentication key (if required)
+- `api_key` (str): Authentication key (if required)
 
 **Returns:** None
 
