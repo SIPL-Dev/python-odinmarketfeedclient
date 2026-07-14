@@ -14,7 +14,7 @@ async def main():
     # Define event handlers
     async def on_open():
         print("✅ WebSocket connection opened successfully!")
-        print("📊 Subscribing to market data...")
+        print("📊 Subscribing to market data....")
         
         # Subscribe to LTP touchline for specific scrips
         # Format: "segment_token" (e.g., "1_22" means segment 1, token 22)

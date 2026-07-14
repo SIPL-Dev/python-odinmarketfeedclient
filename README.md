@@ -60,9 +60,9 @@ async def main():
     await client.connect(
         host="your.server.com",
         port=4509,
-        is_ssl=False,
+        use_ssl=False,
         user_id="YOUR_USER_ID",
-        authentication_key=""
+        api_key=""
     )
     
     # Keep connection alive
